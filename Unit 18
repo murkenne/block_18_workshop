@@ -22,6 +22,23 @@ Expect a formula (num % 2=== 1) to return only odd numbers
 Expect to have an empty array [] 
 Expect .splice method to output only odd numbers into the empty array
 
+
 Functional test
 
 A shopping cart checkout feature that allows a user to check out as a guest (without an account), or as a logged-in user. They should be allowed to do either, but should be asked if they want to create an account or log in if they check out as a guest.
+
+when user checkouts without a login "they" will be asked if they have an account ir would like to make one 
+
+The shopper will continue as guest or make a new account
+
+•when making a new account a form will be presented to the user if they click "create new account"
+
+•when clicking "create new account" the form will require email, phone number and first and last name 
+
+•when the user enters wrong email it will result in "this email is not valid".
+
+•when user inputs a valid email it should output "we've sent a confirmation number to this email address".
+
+•when the sign up form is completed correctly the website should say "welcome new user".
+
+•when user makes a purchase as guest their name and information should be saved on the device they used for a certain duration of time
